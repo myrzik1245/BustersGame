@@ -16,7 +16,7 @@ public class SpeedStat
     public void ChangeSpeed(float speed)
     {
         if (speed <= 0)
-            Debug.LogError($"Speed <= 0 ({speed})");
+            Debug.LogError($"Change speed <= 0 ({speed})");
 
 
         Speed = Math.Clamp(speed, 0, _maxSpeed);

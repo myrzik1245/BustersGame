@@ -12,6 +12,7 @@ public class HealthStat
     }
 
     public int Health { get; private set; }
+    public bool IsAlive => Health > 0;
 
     public void TakeDamage(int damage)
     {

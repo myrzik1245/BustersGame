@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (_input.IsBusterActivated)
+        if (_input.IsUsePressed)
             _boosterCollector.UseCurrentBooster(this);
     }
 }

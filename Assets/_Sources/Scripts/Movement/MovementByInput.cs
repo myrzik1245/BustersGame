@@ -1,4 +1,3 @@
-using System.Diagnostics.Tracing;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
@@ -38,18 +37,5 @@ public class MovementByInput : MonoBehaviour
 
         _mover.Move(direction);
         _rotator.Rotate(direction);
-    }
-
-    public void Restart()
-    {
-        gameObject.SetActive(true);
-
-        _mover.ResetPosition();
-        _rotator.ResetRotation();
-    }
-
-    public void Stop()
-    {
-        gameObject.SetActive(false);
     }
 }

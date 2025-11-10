@@ -19767,7 +19767,7 @@ GameObject:
   - component: {fileID: 4624477499175038480}
   - component: {fileID: 9050900586640513363}
   m_Layer: 0
-  m_Name: SpeedBooster
+  m_Name: SpeedBoosterVFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19805,7 +19805,7 @@ ParticleSystem:
   serializedVersion: 8
   lengthInSec: 2.1
   simulationSpeed: 4
-  stopAction: 0
+  stopAction: 2
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
